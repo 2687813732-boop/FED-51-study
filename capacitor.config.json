@@ -1,0 +1,15 @@
+{
+  "appId": "com.fde51.study",
+  "appName": "FDE 51",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#070b14"
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_icon",
+      "iconColor": "#4ed3a3"
+    }
+  }
+}

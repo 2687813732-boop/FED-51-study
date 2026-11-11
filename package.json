@@ -1,0 +1,21 @@
+{
+  "name": "fde51-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "FDE 入门 51 天学习助手 · 每日任务、专注计时、提醒监督、提交评价",
+  "scripts": {
+    "sync": "cap sync android",
+    "build:apk": "cd android && gradlew.bat assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.0.0",
+    "@capacitor/local-notifications": "^7.0.0",
+    "@capacitor/status-bar": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

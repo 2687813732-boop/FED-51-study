@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# android build output
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/local.properties
+android/key.properties
+*.jks
+*.keystore
+
+# generated apk
+*.apk
+*.aab
+
+# test screenshots
+tools/ui-test/shots*/
+tools/ui-test/shots2/
+
+# logs / temp
+build-log.txt
+*.log
+.DS_Store
+Thumbs.db
+
+# editors
+.idea/
+.vscode/
+*.iml
