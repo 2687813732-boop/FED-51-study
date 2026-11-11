@@ -13,6 +13,7 @@ android/key.properties
 
 # generated apk
 *.apk
+!dist/*.apk
 *.aab
 
 # test screenshots
